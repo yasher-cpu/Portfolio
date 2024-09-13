@@ -1,0 +1,67 @@
+.project-card {
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card p {
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.project-card h2, .project-card p {
+    margin: 10px 0;
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#contact-title {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-style:oblique;
+}
+
+#contact form {
+    background-color: #b4b4b4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo-border-about {
+    width: 50%;
+    border-radius: 50%;
+    border: 8px solid #fffcfc;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.photo-border-about:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.photo-border {
+    border: 20px solid #000000;
+}
+
+.img-fluid {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
